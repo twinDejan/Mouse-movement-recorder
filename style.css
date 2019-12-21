@@ -1,0 +1,26 @@
+#circle {
+    width: 30px;
+    height: 30px;
+    background: rgb(4, 62, 223);
+    border-radius: 50%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: none;
+}
+
+body{
+    text-align: center;
+    background-color: dimgray;
+    margin-top: 20px;
+}
+
+button{
+    font-size: 18px;
+}
+button:hover,
+button:focus {
+    box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+    transform: translateY(-0.25em);
+    color: #ffa260;
+}
